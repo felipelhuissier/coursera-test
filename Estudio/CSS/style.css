@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+}
+header {
+	background-color: #35526E;
+	color: white;
+}
+/* Versión Desktop */
+@media (min-width: 992px) {
+	.logo {
+		width: 15%;
+	}
+	ul {
+		position: relative;
+		float: right;
+	}
+	li {
+		float: left;
+		margin-right: 15px;
+		list-style: none;
+	}
+}
